@@ -1,0 +1,62 @@
+/* Write your CSS here */
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #150b3e;
+  color: #c7d2fe;
+  font-family: Roboto;
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+.profile {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-name {
+  margin-top: 20px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.balance {
+  color: #585076;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.money {
+  font-weight: bold;
+  font-size: 40px;
+}
+.rupees {
+  color: #585076;
+  margin-left: 1020px;
+}
+.text-container {
+  margin-left: 280px;
+  margin-bottom: 10px;
+}
+.text-container p {
+  margin: 10px;
+}
+
+.warning-msg {
+  text-align: center;
+}

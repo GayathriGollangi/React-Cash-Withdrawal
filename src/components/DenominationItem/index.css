@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.values {
+  border: 1px solid white;
+  height: 50px;
+  width: 150px;
+  margin: 10px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #585076;
+  color: #c7d2fe;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.list-Item {
+  list-style-type: none;
+  text-align: center;
+}
